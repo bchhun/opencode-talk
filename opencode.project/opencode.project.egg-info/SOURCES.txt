@@ -1,0 +1,12 @@
+README.txt
+setup.py
+opencode/__init__.py
+opencode.project.egg-info/PKG-INFO
+opencode.project.egg-info/SOURCES.txt
+opencode.project.egg-info/dependency_links.txt
+opencode.project.egg-info/entry_points.txt
+opencode.project.egg-info/namespace_packages.txt
+opencode.project.egg-info/not-zip-safe
+opencode.project.egg-info/requires.txt
+opencode.project.egg-info/top_level.txt
+opencode/project/__init__.py
