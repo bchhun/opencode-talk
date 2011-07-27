@@ -25,7 +25,7 @@ La procédure habituelle d'installation d'un egg est la suivante:
     cd jdriscoll-django-imagekit-4a1d1d9
     python setup.py install
 
-Imaginez maintenant le faire pour 5, 10, 20 packages et ce, sur 3 ou 4 poste de développement + le serveur de prod...
+Imaginez maintenant le faire pour 5, 10, 20 packages et ce, sur 3 ou 4 postes de développement + le serveur de prod...
 
 ### Pourquoi un environnement virtuel pour mon application ?
 
