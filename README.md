@@ -8,10 +8,11 @@ Les packages Python se nomme des eggs.
 
 Buildout, à l'aide de son fichier de config, permet de reproduire un environnement spécifique pour des applications.
 
-Ses avantages sont les suivants:
+Quelques avantages de Buildout:
 
 * Il nous crée un environnement virtuel pour notre application.
-* Il télécharge et installe des eggs multiples provenant de sources diverses. ([pypi](http://pypi.python.org/pypi), Git, SVN)
+* Il télécharge et installe des eggs multiples provenant de sources diverses. ([pypi](http://pypi.python.org/pypi), repo Git & SVN)
+* On peut utilisé des [recipes](http://pypi.python.org/pypi?:action=browse&show=all&c=512) pour ajouter de nouvelles fonctionnalités à l'application qui est construit. Dans le cas de django, on utilise [celui-ci](http://pypi.python.org/pypi/djangorecipe/0.23.1).
 
 ## Pourquoi utiliser Buildout pour déployer une application Django ?
 
@@ -28,9 +29,9 @@ Imaginez maintenant le faire pour 5, 10, 20 packages...
 
 ### Pourquoi un environnement virtuel pour mon application ?
 
-La méthode d'installation précédente a également un autre problème; elle pollue l'installation globale de Python pour tout ton système !
+La méthode d'installation précédente a également un autre problème; elle pollue l'installation globale de Python pour tout le système !
 
-Or, peut-être qu'une autre application dépend d'une version antérieur du même package que tu viens de mettre à jour !!
+Or, peut-être qu'une autre application dépend d'une version antérieur du même package que l'on vient de mettre à jour !!
 
 Bref, nous pouvons isoler l'environnement d'une application. 
 
@@ -38,4 +39,9 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
 ## Show me some code !
 
-...
+- Présentation du fichier de config Buildout
+- Faire rouler bootstrap.py
+- Faire rouler l'executable 
+    bin/buildout 
+- Faire rouler django
+    bin/opencode runserver 0.0.0.0:9966
