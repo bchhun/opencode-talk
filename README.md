@@ -41,6 +41,9 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
 1. Présentation du fichier de config Buildout
 2. Faire rouler bootstrap.py
+
+        python bootstrap.py
+
 3. Faire rouler l'executable 
     
         bin/buildout 
@@ -49,5 +52,6 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
         bin/opencode runserver 0.0.0.0:9966
 
-5. Ajouter un nouveau package dans le fichier de config.
+5. Ajouter un nouveau package (textile) dans les eggs dans le fichier de config.
 6. refaire l'étape 3 
+7. magie !
