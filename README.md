@@ -18,7 +18,7 @@ Quelques avantages de Buildout:
 
 ### Parce que télécharger des packages et les installer à bras peut être fastidieux dépendamment des fonctionnalités du projet.
 
-La procédure habituelle est la suivante:
+La procédure habituelle d'installation d'un egg est la suivante:
 
     wget https://github.com/jdriscoll/django-imagekit/tarball/develop
     tar -xvf jdriscoll-django-imagekit-4a1d1d9.tar.gz
