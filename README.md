@@ -12,7 +12,7 @@ Quelques avantages de Buildout:
 
 * Il nous crée un environnement virtuel pour notre application.
 * Il télécharge et installe des eggs multiples provenant de sources diverses. ([pypi](http://pypi.python.org/pypi), repo Git & SVN)
-* On peut utilisé des [recipes](http://pypi.python.org/pypi?:action=browse&show=all&c=512) pour ajouter de nouvelles fonctionnalités à l'application qui est construit. Dans le cas de django, on utilise [celui-ci](http://pypi.python.org/pypi/djangorecipe/0.23.1).
+* On peut utilisé des [recipes](http://pypi.python.org/pypi?:action=browse&show=all&c=512) pour ajouter de nouvelles fonctionnalités à l'application qui est construite. Dans le cas de django, on utilise [celui-ci](http://pypi.python.org/pypi/djangorecipe/0.23.1).
 
 ## Pourquoi utiliser Buildout pour déployer une application Django ?
 
