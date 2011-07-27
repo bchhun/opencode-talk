@@ -11,10 +11,7 @@ Buildout, à l'aide de son fichier de config, permet de reproduire un environnem
 Ses avantages sont les suivants:
 
 * Il nous crée un environnement virtuel pour notre application.
-* Il assemble des eggs multiples provenant de sources diverses.
-** [pypi](http://pypi.python.org/pypi)
-** repo Git
-** repo SVN 
+* Il télécharge et installe des eggs multiples provenant de sources diverses. ([pypi](http://pypi.python.org/pypi), Git, SVN)
 
 ## Pourquoi utiliser Buildout pour déployer une application Django ?
 
