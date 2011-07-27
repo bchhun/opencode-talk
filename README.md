@@ -39,9 +39,15 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
 ## Show me some code !
 
-- Présentation du fichier de config Buildout
-- Faire rouler bootstrap.py
-- Faire rouler l'executable 
+1. Présentation du fichier de config Buildout
+2. Faire rouler bootstrap.py
+3. Faire rouler l'executable 
+    
     bin/buildout 
-- Faire rouler django
+
+4. Faire rouler django
+
     bin/opencode runserver 0.0.0.0:9966
+
+5. Ajouter un nouveau package dans le fichier de config.
+6. refaire l'étape 3 
