@@ -7,4 +7,4 @@ from django.conf import settings
 
 def home(request):
     data = {}
-    return render_to_response("accueil.html", data, context_instance=RequestContext)
+    return render_to_response("accueil.html", data, context_instance=RequestContext(request))
