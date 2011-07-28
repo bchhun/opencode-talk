@@ -4,9 +4,11 @@
 
 Django est un framework Python pour faire des sites web et/ou des applications web.
 
-Les packages Python se nomme des eggs.
+Python est un langage de programmation.
 
-Buildout, à l'aide de son fichier de config, permet de reproduire un environnement spécifique pour des applications.
+Les packages standardisés et distribuables Python se nomme des eggs.
+
+Buildout, à l'aide de son fichier de config, permet de reproduire un environnement spécifique pour des applications Python.
 
 Quelques avantages de Buildout:
 
