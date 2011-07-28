@@ -50,7 +50,7 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
 4. Faire rouler django
 
-        bin/opencode runserver 0.0.0.0:9966
+        bin/opencode runserver 0.0.0.0:9696
 
 5. Ajouter un nouveau package (textile) dans les eggs dans le fichier de config.
 6. refaire l'étape 3 
