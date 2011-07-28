@@ -52,7 +52,7 @@ Autant le faire pour éviter un casse-tête similaire au DLL Hell.
 
         bin/opencode runserver 0.0.0.0:9696
 
-5. Ajouter un nouveau package (textile) dans les eggs dans le fichier de config.
+5. Ajouter un nouveau package (markdown) dans les eggs dans le fichier de config.
 6. refaire l'étape 3 pour obtenir le package
-7. Activer textile pour le contenu via un templatetag
+7. Activer markdown pour le contenu via un templatetag
 8. magie !
