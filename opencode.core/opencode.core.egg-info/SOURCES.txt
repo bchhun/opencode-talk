@@ -10,3 +10,6 @@ opencode.core.egg-info/not-zip-safe
 opencode.core.egg-info/requires.txt
 opencode.core.egg-info/top_level.txt
 opencode/core/__init__.py
+opencode/core/urls.py
+opencode/core/views/__init__.py
+opencode/core/views/home.py

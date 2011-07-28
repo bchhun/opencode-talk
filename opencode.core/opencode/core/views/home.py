@@ -6,5 +6,14 @@ from django.template import RequestContext
 from django.conf import settings
 
 def home(request):
-    data = {}
+    data = {
+        "du_texte": """### le mensonge qui suit est aussi grotesque qu'une palourde royale !
+
+ceci est du *markdown* ! **oui oui** !
+
+* une liste
+* non
+* ordonnée
+"""
+    }
     return render_to_response("accueil.html", data, context_instance=RequestContext(request))

@@ -10,3 +10,6 @@ opencode.project.egg-info/not-zip-safe
 opencode.project.egg-info/requires.txt
 opencode.project.egg-info/top_level.txt
 opencode/project/__init__.py
+opencode/project/manage.py
+opencode/project/settings.py
+opencode/project/urls.py
