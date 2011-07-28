@@ -1,0 +1,84 @@
+@base_font: "Lato", sans-serif;
+
+html, body, div, object, 
+h1, h2, h3, h4, h5, h6, p, ul, ol, 
+dl, dt, dd, blockquote, address,
+img, sub, sup, small, big, abbr, acronym, 
+form, fieldset, legend, label, 
+del, ins, dfn, cite, code, var, samp, kbd,
+table, caption, tbody, tfoot, thead, tr, th, td
+                { margin: 0; padding: 0;
+                  border: 0; outline: 0;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-size: 1em;
+                  font-family: inherit;
+                  vertical-align: baseline;
+                  background: transparent }
+                  
+:focus, :active { outline: 0; }
+
+html            { height: 100%; font-size: 100.01% }
+body            { height: 100%; font-size: 62.5% }  
+
+/* Common
+------------------------------------------*/
+
+acronym, abbr   { cursor: help; letter-spacing: 1px;
+                  border-bottom: 1px dashed }
+
+ul, ol          { margin-bottom: 1.5em }
+ul              { list-style-type: square }
+ol              { list-style-type: decimal }
+li              { margin: 0 0 0 1.5em }
+li ul           { margin-bottom: 0 }
+
+small           { font-size: .85em }
+big             { font-size: 1.15em }
+ 
+sup             { font-size: .85em; position: relative; bottom: .3em }
+sub             { font-size: .85em; position: relative; bottom: -.2em }
+
+legend          { }
+label           { cursor: default }
+
+table           { margin: 0 auto 1.5em; border-collapse: collapse }
+table th        { vertical-align: middle; font-weight: bold }
+table td,
+table th        { /*border: 1px solid #000;*/ padding: .1666em .4166em }
+
+/* Typography
+------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+                { font-family: @base_font;}
+p, pre, label, caption, th, td, dt, dd, 
+select, ul, ol, address, cite, img, span, a, input, textarea
+                {font-family: @base_font;} 
+blockquote, q   {font-family: @base_font;}          
+tt, code, samp  {font-family: @base_font;}
+
+h1, h2, h3, h4, h5, h6
+                { font-weight: normal; color: white; }
+                
+h1              { font-size: 2.6em; line-height: 1.2307em; margin-bottom: .5em }
+h2              { font-size: 1.8em; line-height: 1.3333em; margin-bottom: .6666em }
+h3              { font-size: 1.4em; line-height: 1.1428em; margin-bottom: 1.1428em }
+h4, h5, h6      { font-size: 1.1em; line-height: 1.4545em; margin-bottom: 1.4545em }
+
+p, pre, label, dt, dd, 
+select, blockquote, address
+                { font-size: 1em; line-height: 1.4545em; margin-bottom: 1.4545em }
+ul, th, td, caption, img
+                { font-size: 1em; line-height: 1.4545em }
+li ul           { font-size: 1em }
+
+/* Links
+------------------------------------------*/
+
+a:link, a:visited, a:hover, a:active
+                { text-decoration: underline; color: white; }
+a:hover         { /*text-decoration:underline;*/ border-bottom:none; }
+a img           { border: none }
+
+.clear {clear:both;font-size:0;height:0;overflow:hidden;display:block;float:none !important;}
